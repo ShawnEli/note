@@ -1,0 +1,11 @@
+<!--pages/note/note.wxml-->
+<view class='container'>
+    <view class='img-container'>
+        <image src="{{src}}" class='index-img' mode='aspectFill'></image>
+    </view>
+    <textarea class='textarea' placeholder="记录你所想" maxlength="140" auto-height value='{{data}}' bindinput="bindinput">
+
+    </textarea>
+    <button type='primary' size='default' style='margin: 20rpx;width: 80%;' bindtap='onAdd'>提交</button>
+</view>
+

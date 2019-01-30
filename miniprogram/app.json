@@ -1,0 +1,26 @@
+{
+    "pages": [
+        "pages/note/note",
+        "pages/user/user"
+    ],
+    "window": {
+        "backgroundColor": "#F6F6F6",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#F6F6F6",
+        "navigationBarTitleText": "私人记事本",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "position": "top",
+        "list": [
+            {
+                "pagePath": "pages/note/note",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/user/user",
+                "text": "记录"
+            }
+        ]
+    }
+}

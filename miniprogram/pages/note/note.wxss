@@ -1,0 +1,16 @@
+/* pages/note/note.wxss */
+.textarea{
+    min-height: 300rpx;
+    border: 1px solid #eaeaea;
+    padding: 20rpx;
+    box-sizing: border-box;
+}
+
+.img-container{
+    margin: 20rpx auto;
+}
+.index-img{
+    width: 200rpx;
+    height: 200rpx;
+    border-radius: 50%;
+}

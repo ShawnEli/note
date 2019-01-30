@@ -1,0 +1,13 @@
+<!--pages/user/user.wxml-->
+<view class='container'>
+    <block wx:for="{{result}}">
+        <view class='item'>
+            <view class='item-title'>
+                <view >{{item.date}}</view>
+                <button type="primary" size='mini' style='margin: 0 0 8rpx 0' bindtap='delete' data-item="{{item}}">删除</button>
+            </view>
+            
+            <view class='item-content'>{{item.content}}</view>
+        </view>
+    </block>
+</view>
